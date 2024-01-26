@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 222381818}
   - component: {fileID: 222381817}
   m_Layer: 0
-  m_Name: Pupil (1)
+  m_Name: Pupil_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -151,11 +151,11 @@ Transform:
   m_GameObject: {fileID: 222381815}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.624688, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.003572976, y: 0.2851227, z: 0.29700232}
+  m_LocalScale: {x: 0.5943025, y: 0.26792088, z: 0.40097776}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1755955018}
+  m_Father: {fileID: 441151492}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &222381817
 SphereCollider:
@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 441151494}
   - component: {fileID: 441151493}
   m_Layer: 0
-  m_Name: Eyes
+  m_Name: Eye_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -256,11 +256,11 @@ Transform:
   m_GameObject: {fileID: 441151491}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.2701422, y: 1.1238095, z: 0.33862475}
-  m_LocalScale: {x: 0.086768664, y: 6.523852, z: 0.086768664}
+  m_LocalPosition: {x: -0.27, y: 1.0076, z: 0.27223}
+  m_LocalScale: {x: 0.12434817, y: 9.349332, z: 0.12434817}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1694715930}
+  - {fileID: 222381816}
   m_Father: {fileID: 2021133329}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &441151493
@@ -640,7 +640,7 @@ GameObject:
   - component: {fileID: 1694715932}
   - component: {fileID: 1694715931}
   m_Layer: 0
-  m_Name: Right Eye
+  m_Name: Eye_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -655,12 +655,12 @@ Transform:
   m_GameObject: {fileID: 1694715929}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.321764, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.2539501, y: 1.0075998, z: 0.27222997}
+  m_LocalScale: {x: 0.12434817, y: 9.349332, z: 0.12434817}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1755955018}
-  m_Father: {fileID: 441151492}
+  m_Father: {fileID: 2021133329}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &1694715931
 SphereCollider:
@@ -746,7 +746,7 @@ GameObject:
   - component: {fileID: 1755955020}
   - component: {fileID: 1755955019}
   m_Layer: 0
-  m_Name: Pupil
+  m_Name: Pupil_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -764,8 +764,7 @@ Transform:
   m_LocalPosition: {x: 0.022987843, y: 0.28512266, z: 0.2970028}
   m_LocalScale: {x: 0.5943026, y: 0.26792088, z: 0.40097782}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 222381816}
+  m_Children: []
   m_Father: {fileID: 1694715930}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &1755955019
@@ -945,6 +944,7 @@ Transform:
   m_LocalScale: {x: 19.402, y: 0.2580509, z: 19.402}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1694715930}
   - {fileID: 441151492}
   - {fileID: 799675298}
   m_Father: {fileID: 0}
